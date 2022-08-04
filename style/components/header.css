@@ -30,6 +30,23 @@
     font-size: 20px;
 }
 
+.modile{
+    display: none;
+}
+.mobile > i {
+    font-size: 25px;
+    color: #f48840;
+}
+
+@media (max-width:900px) {
+    .nav {
+        display: none;
+    }
+    .modile{
+        display: block;
+    }
+}
+
 /*int*/
 .int {
     width: 100%;
